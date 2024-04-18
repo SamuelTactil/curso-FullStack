@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Perfil de Usuario</h1>
+    <form action="formulario_de_ejemplo.php" method="post">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" value="" placeholder="Introduce tu nombre"
+                maxlength="10" /><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" value="Introduce tus apellidos" /><br>
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" value="" placeholder="Contraseña de 8 caracteres"
+                min="8" /> <br>
+            <label for="dni">DNI</label><br>
+            <input type="text" id="dni" name="dni" value="" placeholder="Introduce tu DNI" maxlength="9"
+                size="10" /><br>
+            <label for="correo">Email</label><br>
+            <input type="email" id="correo" name="correo" value="Introduce tu email" /><br>
+        </fieldset>
+
+        <p><input type="checkbox" name="notificaciones" id="notificaciones" value="Recibir notificaciones" checked="checked"/>
+            <label for="notificaciones">Recibir notificaciones</label>
+        </p>
+
+        <label for="sexo">Sexo</label><br>
+        <input type="radio" name="sexo" id="sexo" value="Hombre" checked="checked" />Hombre<br>
+        <input type="radio" name="sexo" id="sexo" value="Mujer" />Mujer
+
+        <p>Adjuntar foto <input type="file" name="fotoadj" id="fotoadj" value="Seleccionar Archivo"/></p>
+
+        <fieldset>
+            <legend>Intereses</legend>
+            <input type="checkbox" name="intereses" id="html" value="HTML" checked="checked"/>
+            <label for="HTML">HTML</label>
+            <input type="checkbox" name="intereses" id="musica" value="Música" />
+            <label for="HTML">Música</label>
+            <input type="checkbox" name="intereses" id="deporte" value="Deporte" />
+            <label for="HTML">Deporte</label>
+            <input type="checkbox" name="intereses" id="aventura" value="Aventura" />
+            <label for="HTML">Aventura</label>
+        </fieldset>
+    <br>
+    <br>
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Reset" style="margin-left: 25px">
+    </form>
+</body>
+
+</html>
