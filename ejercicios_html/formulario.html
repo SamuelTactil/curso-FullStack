@@ -13,44 +13,38 @@
         <fieldset>
             <legend>Datos Personales</legend>
             <label for="nombre">Nombre</label><br>
-            <input type="text" id="nombre" name="nombre" value="" placeholder="Introduce tu nombre"
-                maxlength="10" /><br>
+            <input type="text" id="nombre" name="nombre" value="" placeholder="Introduce tu nombre" size="25"/><br>
             <label for="apellidos">Apellidos</label><br>
-            <input type="text" id="apellidos" name="apellidos" value="Introduce tus apellidos" /><br>
+            <input type="text" id="apellidos" name="apellidos" value="Introduce tus apellidos" size="38" /><br>
             <label for="password">Contraseña</label><br>
             <input type="password" id="password" name="password" value="" placeholder="Contraseña de 8 caracteres"
-                minlength="8" /> <br>
+                minlength="8" maxlength="256" size="20" /> <br>
             <label for="dni">DNI</label><br>
             <input type="text" id="dni" name="dni" value="" placeholder="Introduce tu DNI" maxlength="9"
-                size="10" /><br>
+                size="12" /><br>
             <label for="correo">Email</label><br>
-            <input type="email" id="correo" name="correo" value="Introduce tu email" /><br>
+            <input type="email" id="correo" name="correo" value="Introduce tu email" size="29" /><br>
         </fieldset>
 
-        <p><input type="checkbox" name="notificaciones" id="notificaciones" value="Recibir notificaciones" checked="checked"/>
-            <label for="notificaciones">Recibir notificaciones</label>
-        </p>
+        <p><input type="checkbox" name="notificaciones" id="notificaciones" value="Recibir notificaciones"
+                checked="checked" /> Recibir notificaciones</p>
 
         <label for="sexo">Sexo</label><br>
         <input type="radio" name="sexo" id="sexo" value="Hombre" checked="checked" />Hombre<br>
         <input type="radio" name="sexo" id="sexo" value="Mujer" />Mujer
 
-        <p>Adjuntar foto <input type="file" name="fotoadj" id="fotoadj" value="Foto"/></p>
+        <p>Adjuntar foto <input type="file" name="fotoadj" id="fotoadj" value="Foto" /></p>
 
         <fieldset>
             <legend>Intereses</legend>
-            <input type="checkbox" name="intereses" id="html" value="HTML" checked="checked"/>
-            <label for="HTML">HTML</label>
-            <input type="checkbox" name="intereses" id="musica" value="Música" />
-            <label for="HTML">Música</label>
-            <input type="checkbox" name="intereses" id="deporte" value="Deporte" />
-            <label for="HTML">Deporte</label>
-            <input type="checkbox" name="intereses" id="aventura" value="Aventura" />
-            <label for="HTML">Aventura</label>
+            <input type="checkbox" name="intereses" id="html" value="HTML" checked="checked" /> HTML
+            <input type="checkbox" name="intereses" id="musica" value="Música" /> Música
+            <input type="checkbox" name="intereses" id="deporte" value="Deporte" /> Deporte
+            <input type="checkbox" name="intereses" id="aventura" value="Aventura" /> Aventura
         </fieldset>
-    <br>
-    <br>
-        <input type="submit" value="Enviar"/>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" />
         <input type="reset" value="Reset" style="margin-left: 25px">
     </form>
 </body>
