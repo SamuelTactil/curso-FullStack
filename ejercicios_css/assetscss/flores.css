@@ -1,0 +1,62 @@
+:root {
+    font-size: 15px;
+}
+
+.cielo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 800px;
+    background-image: linear-gradient(180deg, #65b1d9, #166ef2);
+}
+
+.centro {
+    width: 8rem;
+    height: 8rem;
+    background-image: radial-gradient(circle, yellow, orange 80%);
+    border-radius: 20rem;
+    position: absolute;
+}
+
+.petalos270, .petalos30, .petalos315, .petalos90 {
+    position: absolute;
+    border-radius: 50%;
+    width: 15rem;
+    height: 30rem;
+    background-image: radial-gradient(circle, white 10%, rgb(219, 187, 157));
+}
+
+.tallo {
+    position: absolute;
+    width: 3rem;
+    height: 8rem;
+    background: linear-gradient(90deg, rgb(87, 32, 0) 0%, rgba(255, 171, 0, 1) 50%, rgb(87, 32, 0) 100%);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.suelo {
+    background-color: rgb(78, 54, 40);
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    width: 800px;
+}
+
+.petalos90 {
+    rotate: 90deg;
+}
+
+.petalos30 {
+    rotate: 30deg;
+}
+
+.petalos270 {
+    rotate: 270deg;
+}
+
+.petalos315 {
+    rotate: 315deg;
+}

@@ -1,0 +1,94 @@
+:root {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilizar {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+
+}
+
+p {
+    text-align: center;
+}
+
+.sinbdr {
+    overflow: hidden;
+    padding: 4rem;
+    background-color: linen;
+    position: relative;
+}
+
+.sinbdr::after{
+    position: absolute;
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: red;
+    top: 0px;
+}
+.sinbdr::before {
+    position: absolute;
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: red;
+    top: -30px;
+    left: -30px;
+}
+
+div+div {
+    background-color: lightgray;
+    padding: 3rem 1rem;
+}
+
+footer>div {
+    background-color: skyblue;
+    padding: 2rem;
+}
+
+h2::after {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 0.2rem;
+    background-color: red;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    z-index: -1;
+}
+
+h3 {
+    display: inline-block;
+}
+h3::after, h3::before {
+    position: absolute;
+    z-index: 1;
+    content: "*";
+    color: red;
+    left: -1em;
+    font-size: 2rem;
+}
+
+h3::before {
+    right: -10%;
+}
+
+.cinco{
+    color: orangered;
+}
+
+a, ul {
+    text-transform: capitalize;
+}
+
+a:last-child {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}

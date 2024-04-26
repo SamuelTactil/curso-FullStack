@@ -1,0 +1,50 @@
+:root{
+    font-size: 15px;
+}
+div {
+    border: solid;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.verde {
+    color: green;
+    border-color: green;
+}
+.rojo {
+    color: red;
+    border-color: red;
+    position: relative;
+    left: 3rem;
+}
+.amarillo {
+    color: yellow;
+    border-color: yellow;
+    position: relative;
+    width: 400px;
+    height: 210px;
+}
+.amarillo div{
+    position: absolute;
+    bottom: 1rem;
+    right: 0px;
+    width: 200px;
+    height:100px;
+    padding: 0;
+}
+.morado {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    position: sticky;
+    top: 0px;
+
+}
+
+.azul{
+    background-color: rgba(0, 0, 255, 0.4);
+    border-color: blue;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+    height: auto;
+}

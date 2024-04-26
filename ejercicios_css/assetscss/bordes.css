@@ -1,0 +1,43 @@
+:root {
+    font-size: 15px;
+}
+div{
+    /* width: 156px; */
+    margin: 2rem;
+    border-width: 20px;
+    padding: 2rem;
+    border-style: solid;
+    display: inline-block;
+}
+div h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+div p {
+    font-size: 1rem;
+}
+
+.azul {
+    background-color: #AAD7E6;
+    border-color: #1EAFAA;
+}
+.rojo {
+
+    background-color: #FFBEC8;
+    border-color: #FFB4BE;
+}
+.verde {
+
+    background-color: #8CEB8C;
+    border-color: #AAFF2D;
+}.img {
+    color: white;
+    background-image: url(../recursos/cielo1.jpg); 
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-color: gray;
+}

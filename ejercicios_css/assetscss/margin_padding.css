@@ -1,0 +1,51 @@
+:root {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+p, h2 {
+    text-indent: 2rem;
+}
+
+header {
+    padding: 1.5rem;
+    background-color: rgb(42, 46, 49);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+div {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.redbg div {
+    background-color: rgb(255, 180, 180);
+}
+
+.redbg h2 {
+    color: crimson;
+}
+
+.bluebg div {
+    background-color: lightblue;
+}
+
+.bluebg h2 {
+    color: darkblue;
+}
+
+.greenbg div {
+    background-color: lightgreen;
+}
+
+.greenbg h2 {
+    color: green;
+}

@@ -1,0 +1,78 @@
+main>div {
+    width: 500px;
+    height: 150px;
+    position: relative;
+    display: inline-block;
+}
+
+.downgrid {
+    background-color: rgba(0, 0, 255, 0.15);
+}
+
+.upgrid {
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+.downgrid *,
+.upgrid * {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.redpill {
+    background-color: red;
+}
+
+.bluepill {
+    background-color: blue;
+}
+
+.greenpill {
+    background-color: green;
+}
+
+.yellowpill {
+    background-color: yellow;
+}
+
+.downgrid .redpill  {
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+}
+.downgrid .bluepill {
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+.downgrid .greenpill {
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+.downgrid .yellowpill {
+    z-index: 4;
+    top: 40px;
+    left: 40px;
+}
+.upgrid .redpill  {
+    z-index: 4;
+    top: 10px;
+    left: 10px;
+}
+.upgrid .bluepill {
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+.upgrid .greenpill {
+    z-index: 3;
+    top: 30px;
+    left: 30px;
+}
+.upgrid .yellowpill {
+    z-index: 2;
+    top: 40px;
+    left: 40px;
+}
