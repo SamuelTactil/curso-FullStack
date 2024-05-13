@@ -1,0 +1,141 @@
+:root {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.redclr {
+    background-color: red;
+}
+
+.blueclr {
+    background-color: blue;
+}
+
+.greenclr {
+    background-color: lime;
+}
+
+.turqueis {
+    background-color: aquamarine;
+}
+
+.yellowclr {
+    background-color: yellow;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav>ul {
+    background-color: lightgray;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 1.2rem 0rem;
+}
+
+.menunico>a {
+    text-transform: uppercase;
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+
+.menunico>a:active {
+    color: black;
+    background-color: white;
+}
+
+.menunico>a:hover {
+    color: maroon;
+    background-color: white;
+}
+
+p>span {
+    text-transform: uppercase;
+}
+
+.bordado {
+    line-height: 1rem;
+    border: 1px solid red;
+    padding: 1rem 2rem;
+    margin: 2rem;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 0;
+}
+
+.bordado::first-letter {
+    text-transform: capitalize;
+}
+
+.cubeta {
+    background-color: lightgrey;
+    margin: 3rem 3rem 0 3rem;
+    /* position: absolute; */
+    /* height: 200rem; */
+}
+
+.cubeta div {
+    margin: 1rem;
+    /* position: absolute; */
+    width: 15rem;
+    height: 15rem;
+    display: inline-block;
+}
+
+.cubeta a {
+    font-size: 10rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.cubeta .flotizq {
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.flotantes .flotder {
+    width: 30%;
+    height: 20%;
+    float: right;
+}
+
+#cont2 {
+    margin: 2rem 12rem 0 12rem;
+}
+
+#cont2 .redclr {
+    border-radius: 50%;
+}
+
+#cont2 .greenclr {
+    border-radius: 0 50% 50% 0;
+}
+
+#cont2 .blueclr {
+    border-radius: 20% 80% 0 80%;
+}
+
+#cont2 .yellowclr {
+    border-radius: 10%;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+}
+
+footer>span::first-letter {
+    text-transform: capitalize;
+}

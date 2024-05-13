@@ -1,0 +1,31 @@
+header {
+    background-color: lightgrey;
+    padding: 0 0 0 1rem;
+}
+h1::first-letter, h2 {
+    text-transform: capitalize;
+}
+
+.row > div {
+    padding: 2rem 1rem;
+}
+
+.rojocol {
+    background-color: #c30000;
+}
+
+.verdecol {
+    background-color: #005c00;
+}
+.azulcol {
+    color: white;
+    background-color: #000075;
+}
+footer {
+    padding: 2rem;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    text-transform: capitalize;
+}
