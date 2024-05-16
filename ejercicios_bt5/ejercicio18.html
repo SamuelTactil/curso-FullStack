@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/formatotxt.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-capitalize">tabs normales</h5>
+                    <ul class="nav nav-tabs flex-column flex-lg-row">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Elemento #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-capitalize">nav pills</h5>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Elemento #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5><span class="h5 text-capitalize me-1">nav pills</span>verticales en móvil</h5>
+                    <ul class="nav nav-pills flex-column flex-lg-row">
+                        <li class="nav-item text-center">
+                            <a href="#" class="nav-link active text-capitalize" aria-current="page">elemento #1</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a href="#" class="nav-link text-capitalize">elemento #2</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a href="#" class="nav-link text-capitalize">elemento #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5 class="text-capitalize">tabs justificadas</h5>
+                    <ul class="nav nav-tabs nav-fill flex-column flex-lg-row">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Elemento #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento más largo que el resto. Pero, mucho, mucho, eh...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5><span class="h5 text-capitalize me-2">nav pills</span>de ancho completo</h5>
+                    <ul class="nav nav-pills nav-justified flex-column flex-lg-row justify-content-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Elemento #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento más largo que el resto. Pero, mucho, mucho, eh...</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Elemento #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Nav tabs con contenido real</h5>
+                    <ul class="nav nav-tabs nav-justified flex-column flex-lg-row" id="ejemplon1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" aria-current="page" data-bs-toggle="tab" href="#miguel" role="tab"
+                                aria-controls="miguel-angel" aria-selected="false" tabindex="-1">M. A. Buonarotti</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#stephen" role="tab"
+                                aria-controls="stiven-jokin" aria-selected="false" tabindex="-1">Stephen Hawking</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#albert" role="tab"
+                                aria-controls="alber-einstein" aria-selected="false" tabindex="-1">Albert Einstein</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#sjobs" role="tab" aria-controls="estiv-yobs"
+                                aria-selected="false" tabindex="-1">Steve Jobs</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#isaac" role="tab"
+                                aria-controls="isaac-asimov" aria-selected="true">Isaac Asimov</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="contenidon1">
+                        <div class="tab-pane fade" id="miguel" role="tabpanel" aria-labelledby="pestaña-miguel">
+                            <p class="mt-2">El mayor peligro para la mayoría de nosotros no es que apuntemos demasiado
+                                alto y no alcancemos nuestra meta, sino que apuntemos demasiado bajo y lo logremos</p>
+                        </div>
+                        <div class="tab-pane fade" id="stephen" role="tabpanel" aria-labelledby="pestaña-stephen">
+                            <p class="mt-2">“Estamos quedándonos sin espacio y los únicos espacios a los que podemos ir
+                                son otros mundos”.</p>
+                        </div>
+                        <div class="tab-pane fade" id="albert" role="tabpanel" aria-labelledby="pestaña-albert">
+                            <p class="mt-2">Cuando tropiezas con el amor, es fácil levantarse. Pero cuando uno se
+                                enamora, es imposible estar en pie de nuevo.</p>
+                        </div>
+                        <div class="tab-pane fade" id="sjobs" role="tabpanel" aria-labelledby="pestaña-steve">
+                            <p class="mt-2">“Tu tiempo es limitado, no lo malgastes viviendo la vida de los demás”</p>
+                        </div>
+                        <div class="tab-pane fade active show" id="isaac" role="tabpanel"
+                            aria-labelledby="pestaña-isaac">
+                            <p class="mt-2">La suerte solo favorecé a la mente preparada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5>Nav pills con contenido real</h5>
+                    <ul class="nav nav-pills nav-fill flex-column flex-lg-row" id="ejemplon2" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#miguel2" role="tab"
+                                aria-controls="miguel-angel" aria-selected="false" tabindex="-1">M. A. Buonarotti</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#stephen2" role="tab"
+                                aria-controls="stiven-jokin" aria-selected="false" tabindex="-1">Stephen Hawking</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#isaac2" role="tab"
+                                aria-controls="isaac-asimov" aria-selected="true">Isaac Asimov</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="contenidon2">
+                        <div class="tab-pane fade" id="miguel2" role="tabpanel" aria-labelledby="pestaña-miguel">
+                            <p class="mt-2">El mayor peligro para la mayoría de nosotros no es que apuntemos demasiado
+                                alto y no alcancemos nuestra meta, sino que apuntemos demasiado bajo y lo logremos</p>
+                        </div>
+                        <div class="tab-pane fade" id="stephen2" role="tabpanel" aria-labelledby="pestaña-stephen">
+                            <p class="mt-2">“Estamos quedándonos sin espacio y los únicos espacios a los que podemos ir
+                                son otros mundos”.</p>
+                        </div>
+                        <div class="tab-pane fade active show" id="isaac2" role="tabpanel"
+                            aria-labelledby="pestaña-isaac">
+                            <p class="mt-2">La suerte solo favorecé a la mente preparada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
